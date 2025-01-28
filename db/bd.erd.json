@@ -1,0 +1,589 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "Fve4-JrIcmXQq62LIDmzE",
+      "hzzixaa6_XuHV8N33V_p7",
+      "93Hcqy0GGysmcr4SqMMeY"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "Fve4-JrIcmXQq62LIDmzE": {
+        "id": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "Dentista",
+        "comment": "",
+        "columnIds": [
+          "ikaJYhdHBU3uHW9D4mCGV",
+          "Nx48gIWm71KfGZ81s3eAG",
+          "oIF-zbG9KHaNrfnWo2nuc",
+          "pHJchbRj8mpuRUriuU9Hl",
+          "P4Q76hQGA7Q91MrQJhM-T",
+          "nwrOTYUGrjVuLTvauq1WK"
+        ],
+        "seqColumnIds": [
+          "ikaJYhdHBU3uHW9D4mCGV",
+          "Nx48gIWm71KfGZ81s3eAG",
+          "oIF-zbG9KHaNrfnWo2nuc",
+          "pHJchbRj8mpuRUriuU9Hl",
+          "P4Q76hQGA7Q91MrQJhM-T",
+          "nwrOTYUGrjVuLTvauq1WK"
+        ],
+        "ui": {
+          "x": 149,
+          "y": 72,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1738085719733,
+          "createAt": 1738085470495
+        }
+      },
+      "hzzixaa6_XuHV8N33V_p7": {
+        "id": "hzzixaa6_XuHV8N33V_p7",
+        "name": "Local",
+        "comment": "",
+        "columnIds": [
+          "X-YE8I5jvSPrNFtqre0kH",
+          "e0qbRZHeL87rv4uf_NG2v",
+          "h_pSVlJWKkSmekZJWTr5l",
+          "j44Jx9C16QBLMH6i5oWCe"
+        ],
+        "seqColumnIds": [
+          "X-YE8I5jvSPrNFtqre0kH",
+          "e0qbRZHeL87rv4uf_NG2v",
+          "h_pSVlJWKkSmekZJWTr5l",
+          "j44Jx9C16QBLMH6i5oWCe"
+        ],
+        "ui": {
+          "x": 645,
+          "y": 97,
+          "zIndex": 9,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1738085676925,
+          "createAt": 1738085574936
+        }
+      },
+      "93Hcqy0GGysmcr4SqMMeY": {
+        "id": "93Hcqy0GGysmcr4SqMMeY",
+        "name": "Paciente",
+        "comment": "",
+        "columnIds": [
+          "IcRA7BoiytMUP2HSpSFfH",
+          "CGBPVvnV_UKj729NxcOaP",
+          "sF1LmZFNfdW01ze80gj-L",
+          "MLdAEGjDjgYIpMsquI25V"
+        ],
+        "seqColumnIds": [
+          "IcRA7BoiytMUP2HSpSFfH",
+          "CGBPVvnV_UKj729NxcOaP",
+          "sF1LmZFNfdW01ze80gj-L",
+          "MLdAEGjDjgYIpMsquI25V"
+        ],
+        "ui": {
+          "x": 141,
+          "y": 328,
+          "zIndex": 33,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1738086209789,
+          "createAt": 1738085725370
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "ikaJYhdHBU3uHW9D4mCGV": {
+        "id": "ikaJYhdHBU3uHW9D4mCGV",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085631323,
+          "createAt": 1738085488010
+        }
+      },
+      "Nx48gIWm71KfGZ81s3eAG": {
+        "id": "Nx48gIWm71KfGZ81s3eAG",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_nombres",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 96,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085689846,
+          "createAt": 1738085507595
+        }
+      },
+      "oIF-zbG9KHaNrfnWo2nuc": {
+        "id": "oIF-zbG9KHaNrfnWo2nuc",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_apellidos",
+        "comment": "",
+        "dataType": "VARBINARY",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 96,
+          "widthComment": 60,
+          "widthDataType": 64,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085694749,
+          "createAt": 1738085519994
+        }
+      },
+      "pHJchbRj8mpuRUriuU9Hl": {
+        "id": "pHJchbRj8mpuRUriuU9Hl",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_domicilio",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085698733,
+          "createAt": 1738085542531
+        }
+      },
+      "P4Q76hQGA7Q91MrQJhM-T": {
+        "id": "P4Q76hQGA7Q91MrQJhM-T",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_telefono",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 93,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085708868,
+          "createAt": 1738085547858
+        }
+      },
+      "nwrOTYUGrjVuLTvauq1WK": {
+        "id": "nwrOTYUGrjVuLTvauq1WK",
+        "tableId": "Fve4-JrIcmXQq62LIDmzE",
+        "name": "dentista_cedula",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 84,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085831046,
+          "createAt": 1738085565251
+        }
+      },
+      "X-YE8I5jvSPrNFtqre0kH": {
+        "id": "X-YE8I5jvSPrNFtqre0kH",
+        "tableId": "hzzixaa6_XuHV8N33V_p7",
+        "name": "local_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085636985,
+          "createAt": 1738085599644
+        }
+      },
+      "e0qbRZHeL87rv4uf_NG2v": {
+        "id": "e0qbRZHeL87rv4uf_NG2v",
+        "tableId": "hzzixaa6_XuHV8N33V_p7",
+        "name": "local_nombre",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 74,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085654484,
+          "createAt": 1738085638092
+        }
+      },
+      "h_pSVlJWKkSmekZJWTr5l": {
+        "id": "h_pSVlJWKkSmekZJWTr5l",
+        "tableId": "hzzixaa6_XuHV8N33V_p7",
+        "name": "local_direccion",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 81,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085674324,
+          "createAt": 1738085655100
+        }
+      },
+      "j44Jx9C16QBLMH6i5oWCe": {
+        "id": "j44Jx9C16QBLMH6i5oWCe",
+        "tableId": "hzzixaa6_XuHV8N33V_p7",
+        "name": "local_telefono",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 76,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085682732,
+          "createAt": 1738085676925
+        }
+      },
+      "IcRA7BoiytMUP2HSpSFfH": {
+        "id": "IcRA7BoiytMUP2HSpSFfH",
+        "tableId": "93Hcqy0GGysmcr4SqMMeY",
+        "name": "paciente_id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 62,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738086181641,
+          "createAt": 1738085734917
+        }
+      },
+      "CGBPVvnV_UKj729NxcOaP": {
+        "id": "CGBPVvnV_UKj729NxcOaP",
+        "tableId": "93Hcqy0GGysmcr4SqMMeY",
+        "name": "paciente_nombres",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085786894,
+          "createAt": 1738085749029
+        }
+      },
+      "sF1LmZFNfdW01ze80gj-L": {
+        "id": "sF1LmZFNfdW01ze80gj-L",
+        "tableId": "93Hcqy0GGysmcr4SqMMeY",
+        "name": "paciente_apellidos",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 99,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738085798190,
+          "createAt": 1738085787847
+        }
+      },
+      "MLdAEGjDjgYIpMsquI25V": {
+        "id": "MLdAEGjDjgYIpMsquI25V",
+        "tableId": "93Hcqy0GGysmcr4SqMMeY",
+        "name": "paciente_seguro",
+        "comment": "",
+        "dataType": "BOOL",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 88,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1738086178313,
+          "createAt": 1738085838757
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "Fve4-JrIcmXQq62LIDmzE": [
+      "tableEntities",
+      1738085470493,
+      -1,
+      {
+        "name": 1738085487338
+      }
+    ],
+    "ikaJYhdHBU3uHW9D4mCGV": [
+      "tableColumnEntities",
+      1738085488010,
+      -1,
+      {
+        "name": 1738085493858,
+        "dataType": 1738085631323,
+        "options(notNull)": 1738085501236,
+        "options(primaryKey)": 1738085505910
+      }
+    ],
+    "Nx48gIWm71KfGZ81s3eAG": [
+      "tableColumnEntities",
+      1738085507594,
+      -1,
+      {
+        "name": 1738085689846,
+        "dataType": 1738085517602,
+        "options(notNull)": 1738085518106
+      }
+    ],
+    "oIF-zbG9KHaNrfnWo2nuc": [
+      "tableColumnEntities",
+      1738085519994,
+      -1,
+      {
+        "name": 1738085694748,
+        "dataType": 1738085523658,
+        "options(notNull)": 1738085524186
+      }
+    ],
+    "pHJchbRj8mpuRUriuU9Hl": [
+      "tableColumnEntities",
+      1738085542530,
+      -1,
+      {
+        "name": 1738085698733,
+        "dataType": 1738085561522,
+        "options(notNull)": 1738085547275
+      }
+    ],
+    "P4Q76hQGA7Q91MrQJhM-T": [
+      "tableColumnEntities",
+      1738085547858,
+      -1,
+      {
+        "name": 1738085708867,
+        "dataType": 1738085557514
+      }
+    ],
+    "nwrOTYUGrjVuLTvauq1WK": [
+      "tableColumnEntities",
+      1738085565251,
+      -1,
+      {
+        "name": 1738085827782,
+        "dataType": 1738085830470,
+        "options(notNull)": 1738085831045
+      }
+    ],
+    "hzzixaa6_XuHV8N33V_p7": [
+      "tableEntities",
+      1738085574936,
+      -1,
+      {
+        "name": 1738085606556
+      }
+    ],
+    "X-YE8I5jvSPrNFtqre0kH": [
+      "tableColumnEntities",
+      1738085599643,
+      -1,
+      {
+        "name": 1738085610454,
+        "dataType": 1738085635091,
+        "options(primaryKey)": 1738085636985
+      }
+    ],
+    "e0qbRZHeL87rv4uf_NG2v": [
+      "tableColumnEntities",
+      1738085638092,
+      -1,
+      {
+        "name": 1738085652036,
+        "dataType": 1738085654060,
+        "options(notNull)": 1738085654483
+      }
+    ],
+    "h_pSVlJWKkSmekZJWTr5l": [
+      "tableColumnEntities",
+      1738085655099,
+      -1,
+      {
+        "name": 1738085672349,
+        "dataType": 1738085673972,
+        "options(notNull)": 1738085674324
+      }
+    ],
+    "j44Jx9C16QBLMH6i5oWCe": [
+      "tableColumnEntities",
+      1738085676924,
+      -1,
+      {
+        "name": 1738085680020,
+        "dataType": 1738085681933,
+        "options(notNull)": 1738085682732
+      }
+    ],
+    "93Hcqy0GGysmcr4SqMMeY": [
+      "tableEntities",
+      1738085725369,
+      -1,
+      {
+        "name": 1738085734367
+      }
+    ],
+    "IcRA7BoiytMUP2HSpSFfH": [
+      "tableColumnEntities",
+      1738085734917,
+      -1,
+      {
+        "name": 1738085737646,
+        "dataType": 1738085746759,
+        "options(primaryKey)": 1738086181640
+      }
+    ],
+    "CGBPVvnV_UKj729NxcOaP": [
+      "tableColumnEntities",
+      1738085749028,
+      -1,
+      {
+        "name": 1738085760398,
+        "dataType": 1738085763301,
+        "options(notNull)": 1738085786894
+      }
+    ],
+    "sF1LmZFNfdW01ze80gj-L": [
+      "tableColumnEntities",
+      1738085787846,
+      -1,
+      {
+        "name": 1738085792919,
+        "dataType": 1738085795037,
+        "options(notNull)": 1738085798190
+      }
+    ],
+    "MLdAEGjDjgYIpMsquI25V": [
+      "tableColumnEntities",
+      1738085838757,
+      -1,
+      {
+        "name": 1738086170475,
+        "dataType": 1738086176762,
+        "options(notNull)": 1738086178312
+      }
+    ]
+  }
+}
