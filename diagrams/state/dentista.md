@@ -1,6 +1,5 @@
 ```mermaid
 stateDiagram-v2
-    title Paciente
     [*] --> Activo
     Activo --> Inactivo : Desactivar
     Inactivo --> Activo : Activar
