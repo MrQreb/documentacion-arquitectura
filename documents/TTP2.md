@@ -60,6 +60,9 @@ La verificación de software se enfoca en revisar y evaluar el código, la arqui
 
 **Verificación de Diseño**: Se revisa la arquitectura y el diseño del software para asegurarse de que cumple con los requisitos y está bien estructurado.
 
+### Promp
+***Analyze the following information thoroughly and extract the most important and relevant details. Verify the accuracy and reliability of the information, ensuring it is up-to-date and well-supported. Once verified, summarize the key points in a clear and concise manner so that it can be effectively passed on to another AI for further processing or decision-making. Highlight any critical insights, potential gaps, or areas that may require additional verification.***
+
 ### Referencias
 
 - SQS. (n.d.). Verificación y validación de software. Recuperado de https://www.sqs.es/verificacion-y-validacion-de-software/
