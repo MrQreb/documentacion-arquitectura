@@ -314,7 +314,7 @@ En nestjs nos permite apliar patrones de diseño que permiten organizar mejor el
 **Factory**: NestJS utiliza el patrón Factory para la creación de instancias de servicios y controladores. Esto se logra a través de la inyección de dependencias, donde los proveedores son registrados y gestionados por el contenedor de inyección de dependencias de NestJS.
 
 **Singleton**: Los servicios en NestJS son instancias únicas (singleton) por defecto. Esto significa que una única instancia de un servicio es compartida a lo largo de toda la aplicación, lo que facilita la gestión del estado y la configuración.
-
+****
 **MVC (Model-View-Controller)**: NestJS sigue el patrón MVC, donde los controladores manejan las solicitudes HTTP, los servicios contienen la lógica de negocio y los modelos representan los datos. Esto separa claramente las responsabilidades y facilita el mantenimiento del código.
 
 
@@ -342,4 +342,4 @@ Para asegurar una documentación clara y precisa, estamos utilizando Swagger par
   
 - **Interfaz Interactiva**: Proporciona una interfaz web interactiva donde los desarrolladores pueden explorar y probar las diferentes rutas y métodos de la API, mejorando la experencia de desarrollo.
 
-- **Generación de Código**: Swagger permite la generación de código cliente y servidor en varios lenguajes de programación a partir de la especificación de la API, lo que reduce errores y acelera el desarrollo.
+- **Generación de Código**: Swagger permite la generación de código cliente y servidor en varios lenguajes de programación a partir de la especificación de la API, lo que reduce errores y acelera el desarrollo.**
